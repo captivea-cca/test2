@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Project Show Empty Stages",
+    'name': "Cap Show Empty Stages",
 
-    'summary': """""",
+    'summary': """
+        This module adds the feature of always showing empty stages in Projects task view
+        """,
 
-    'author': "Chandler Calderon <chandler.calderon@captivea.com>",
-    'website': "http://www.captivea.us",
-
+    'author': 'Captivea',
+    'website': 'www.captivea.us',
+    'version': '13.0.1.0.0',
     'category': 'Customizations',
-    'version': '0.1',
-    'application': True,
 
     'depends': ['base', 'project'],
 
