@@ -8,4 +8,6 @@ class Task(models.Model):
 
     @api.model
     def _read_group_stage_ids(self, stages, domain, order):
-        return stages.ids
+        search_domain = [('id', 'in', stages.ids)]
+        stage_ids = stages._search(search_domain, order=order, access_rights_uid=SUPERUSER_ID)
+        return stages.browse(stage_ids)
