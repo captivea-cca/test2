@@ -7,13 +7,12 @@
     'author': "Chandler Calderon <chandler.calderon@captivea.com>",
     'website': "http://www.captivea.us",
 
-    'category': 'Web',
+    'category': 'Customizations',
     'version': '0.1',
     'application': True,
 
     'depends': ['base'],
 
-    'data': [
-    ],
+    'data': [],
 
 }
