@@ -11,7 +11,7 @@
     'version': '0.1',
     'application': True,
 
-    'depends': ['base', 'project.task'],
+    'depends': ['base'],
 
     'data': [],
 
