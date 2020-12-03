@@ -3,8 +3,7 @@
 from odoo import models, fields, api
 
 
-class ClientPricing(models.Model):
-    _name = "client_pricing.pricing"
+class Task(models.Model):
     _inherit = "project.task"
 
     @api.model
